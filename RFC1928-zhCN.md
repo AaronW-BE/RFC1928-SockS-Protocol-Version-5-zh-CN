@@ -108,14 +108,14 @@ SOCKS请求的构成如下：
 
 * VER 协议版本：X'05'
 * CMD
-* CONNECT X'01'
-* BIND X'02'
-* UDP ASSOCIATE X'03'
+  * CONNECT X'01'
+  * BIND X'02'
+  * UDP ASSOCIATE X'03'
 * RSV 保留字段
 * ATYP 后续地址的地址类型
-* IP V4 地址：X'01'
-* 域名：X'03'
-* IP V6 地址：X'04'
+  * IP V4 地址：X'01'
+  * 域名：X'03'
+  * IP V6 地址：X'04'
 * DST.ADDR 期望的目标地址
 * DST.PORT 期望的目标端口，以网络字节顺序表示
 
